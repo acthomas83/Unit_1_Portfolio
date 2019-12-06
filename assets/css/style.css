@@ -90,11 +90,8 @@ h1 {
 }
 
 /* PORTFOLIO */
-.portfolio-content {
-    background-color: #ffffff;
-    margin: 0 auto;
-    padding
-}
-.site-box {
 
+.site-box {
+background-color: #4aaaa5;
+width: 100%;
 }
