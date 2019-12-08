@@ -1,10 +1,16 @@
+.topspan {
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #666666;
+
+}
 .centered {
     width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 ul {
     list-style-type: none;
@@ -32,18 +38,25 @@ ul {
   }
   
   li a:hover {
-    background-color: #111111;
+    background-color: teal;
+    color: #ffffff;
+  }
+
+  li a:active {
+    background-color: teal;
+    color: #ffffff;
   }
   
 .header {
+    clear: both;
     height: 50px;
+    width: 100%;
     background-color: #ffffff;
     border-color: #cccccc;
     
 }
 .name-tab {
     float: left;
-    text-align: center;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
@@ -51,11 +64,8 @@ ul {
     height: 50px;
     top: 0px;
     line-height: 50px;
+   
 }
-/* .middle-content {
-    background-color: #ffffff;
-
-} */
 body {
     background-image: url("../images/chevron.png");
     background-repeat: repeat;
@@ -69,12 +79,14 @@ h1 {
 }
 
 hr {
-    width: 900px;
+    width: 100%;
 }
 
 .about-me {
-    color: navy;
-    /* background-color: white; */
+    /* color: navy; */
+    background-color: #ffffff;
+    width: 960px;
+    height: 380px;
 }
 
 .profile-picture {
@@ -90,6 +102,7 @@ hr {
 }
 
 .footer {
+    margin: 0px;
     clear: both;
     background-color: #666666;
     color: #ffffff;
@@ -97,16 +110,67 @@ hr {
     height: 40px;
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO PAGE */
 .picbox {
     float: left;
     width: 150px;
     height: 150px;
     position: relative;
+    padding-bottom: 10px; 
 }
 .capbox {
 background-color: #4aaaa5;
 width: 100%;
 position: absolute;
-top: 85%;
+bottom: 85%;
+padding-bottom: 10px; 
 }
+
+/* .b_padding{
+    padding-bottom: 10px;
+} */
+
+/* CONTACT PAGE */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: teal;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
