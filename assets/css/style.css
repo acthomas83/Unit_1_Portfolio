@@ -67,6 +67,7 @@ ul {
    
 }
 body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/chevron.png");
     background-repeat: repeat;
     background-size: cover, 30px 30px;
@@ -74,6 +75,7 @@ body {
 }
 
 h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
     clear: both;
 }
